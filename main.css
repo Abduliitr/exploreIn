@@ -1,0 +1,52 @@
+body{
+    font-family: Poppins;
+}
+
+.advertise{
+    /* height: 85px; */
+    background-color: rgb(201, 201, 201);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+    /* opacity: 1; */
+}
+
+.advertise-row{
+    padding: 15px;
+}
+
+.join-now{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.intro1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 60px;
+}
+
+.my-active{
+    border-bottom: 4px solid #FF4444;
+}
+
+.manual-sticky{
+    position: sticky;
+    top: 13%;
+    z-index: 2000;
+}
+
+@media screen and (max-width: 768px){
+    .manual-sticky{
+        top: 22%;
+    }
+}
