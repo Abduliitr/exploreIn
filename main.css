@@ -100,6 +100,56 @@ body{
     margin: 0 7rem;    
   }
 
+  .beg-adv{
+    padding-top: 100px;
+  }
 
+.welcome{
+  color: #268AFF;
+}
+
+.rectangle-209{
+  width: 21px;
+  height: 40px;
+  background: #C4C4C4;
+  margin: 5px;
+  margin-left: 45%;
+}
+
+.rectangle-210{
+  width: 21px;
+  height: 40px;
+  background: #C4C4C4;
+  margin: 5px;
+  margin-left: 40%;
+}
+
+.rectangle-211{
+  width: 21px;
+  height: 62px;
+  background: #C4C4C4;
+  position: relative;
+  bottom: 17px;
+}
+
+.exclusive{
+  background: #EAF5FF;
+  border-radius: 10px;
+  /* border-radius: 10%; */
+  padding: 50px;
+  margin-bottom: 50px;
+}
+.exclusive .exclusive-card{
+    border-radius: 20px;
+}
+
+.ellipse-72{
+  width: 77px;
+  height: 77px;
+  background: #C4C4C4;
+  border-radius: 50%;
+  margin: 10px;
+  margin-left: 38%;
+}
 
 /* ============= HOME RJ============= */
