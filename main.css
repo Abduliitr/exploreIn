@@ -55,7 +55,9 @@ body{
 
 
 /* ============= HOME RJ============= */
-
+.get-started{
+  background: linear-gradient(90deg, #FF5D17 0%, #FFA114 100%);
+}
   .explore-career .foreign-internships .card{
     height: 280px;
     background-repeat: no-repeat;
@@ -153,3 +155,71 @@ body{
 }
 
 /* ============= HOME RJ============= */
+
+/* Field */
+
+.field-header{
+  width: 100%;
+  min-height: 70vh;
+  /* background: linear-gradient(270deg, rgba(191, 191, 191, 0) 32.97%, #000000 105.39%); */
+  background-image: url('img/field-header.jpeg');
+  background-attachment: fixed;
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;   
+}
+
+.filed-container{
+  background: linear-gradient(270deg, rgba(191, 191, 191, 0) 32.97%, #000000 105.39%);
+  z-index: 10;
+  min-height: 70vh;
+  width: 100%; 
+}
+
+.manual-sticky-2{
+  position: sticky;
+  top:50px;
+  z-index: 2000;
+}
+
+.exclusive-mentorship{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 128.3%;
+
+  /* or 21px */
+
+  color: #ED4337;
+
+  opacity: 0.7;
+}
+.btn-1{
+  background: rgba(252, 88, 42, 0.07);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #FC582A;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.btn-2{
+  background: #FF6A41;
+  border-radius: 0px 0px 10px 0px;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+
+.btn-accordion{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 144%;
+
+  /* identical to box height, or 23px */
+
+  color: #222222 !important;
+}
