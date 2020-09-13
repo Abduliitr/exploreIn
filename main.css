@@ -223,3 +223,53 @@ body{
 
   color: #222222 !important;
 }
+
+/* About Us */
+.aboutus-header{
+  width: 100%;
+  min-height: 70vh;
+  /* background: linear-gradient(270deg, rgba(191, 191, 191, 0) 32.97%, #000000 105.39%); */
+  background-image: url('img/aboutus.png');
+  background-attachment: fixed;
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;   
+}
+
+.aboutus-container{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 25.48%, rgba(255, 255, 255, 0.85) 115.44%);
+  z-index: 10;
+  min-height: 70vh;
+  width: 100%; 
+}
+
+.about-text{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.08em;
+
+  color: #222222;
+  margin-bottom: 100px;
+}
+
+.custom-bullet{
+  padding-left: 0;
+  padding-top: 40px;
+}
+
+.custom-bullet li {
+  display: block;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.08em;
+
+  color: #000000;
+}
+
+.custom-bullet i{
+  color: #666666;
+  padding: 10px;
+  font-size: small;
+}
