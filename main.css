@@ -55,6 +55,55 @@ body{
 
 
 /* ============= HOME RJ============= */
+.sign-up-header{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  text-align: center;
+  color: #222222;
+}
+
+.sign-up-para{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 139.69%;
+  /* or 22px */
+  text-align: center;
+  color: #222222;
+}
+
+.btn-facebook {
+  color: #fff;
+  background-color: #3b5998;
+  border-color: rgba(0,0,0,0.2);
+}
+
+.btn-social {
+  position: relative;
+  padding-left: 44px;
+  text-align: left;
+  white-space: nowrap;
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
+}
+
+.btn-social:hover {
+  color: #eee;
+}
+
+.btn-social :first-child {
+  /* position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0; */
+  width: 40px;
+  padding: 7px;
+  font-size: 1.6em;
+  text-align: center;
+  border-right: 1px solid rgba(0,0,0,0.2);
+}
+
 .get-started{
   background: linear-gradient(90deg, #FF5D17 0%, #FFA114 100%);
 }
